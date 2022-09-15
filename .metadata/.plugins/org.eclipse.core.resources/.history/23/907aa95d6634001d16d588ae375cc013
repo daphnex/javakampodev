@@ -1,0 +1,19 @@
+package intro;
+
+public class Main {
+
+	public static void main(String[] args) {
+	System.out.println("Hi^^,!");
+
+	String ortaMetin ="İlginizi çekebilir";
+	String altMetin ="Vade süresi";
+	//Değişken isimlendirmeleri Java'da camelCase seklinde yazılır.
+	//Java'da ; kullanılır ve devamlı kaydet cmd + s olarak.
+	
+	System.out.println(ortaMetin);
+	//integer (int) = tam sayı
+	int vade = 12;
+	
+	}
+
+}

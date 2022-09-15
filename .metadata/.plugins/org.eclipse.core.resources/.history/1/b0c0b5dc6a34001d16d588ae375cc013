@@ -1,0 +1,45 @@
+package intro;
+
+public class Main {
+
+	public static void main(String[] args) {
+	System.out.println("Hi^^,! Defne's first coding lesson");
+
+	String ortaMetin ="İlginizi çekebilir";
+	String altMetin ="Vade süresi";
+	//Değişken isimlendirmeleri Java'da camelCase seklinde yazılır.
+	//Java'da ; kullanılır ve devamlı kaydet cmd + s olarak.
+	
+	System.out.println(ortaMetin);
+	
+	int vade = 12;  //integer (int) = tam sayı demek
+	double dolarDun= 18.20; //double tam sayı dışındaki sayılar için
+	double dolarBugun= 18.20;
+//condition --> durum soyle ise boyle gibi...	
+	
+	boolean dolarDustuMu = true;  //doğru/yanlışı belirler
+	
+	String okYonu = "";
+	
+	if (dolarBugun<dolarDun) {
+		okYonu = "down.svg";
+		System.out.println(okYonu);	
+	} else if (dolarBugun>dolarDun) {
+		okYonu = "up.svg";
+		System.out.println(okYonu);
+	}
+	else { 
+		okYonu = "uequal.svg";
+		System.out.println(okYonu);		
+	}
+	
+	
+    //array  database'den gelen bilgiler?
+	
+	String[] krediler = {"Hızlı Kredi","Maaş","Emekli"};
+	
+	
+	
+	}
+
+}

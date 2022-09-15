@@ -1,0 +1,28 @@
+package intro;
+
+public class Main {
+
+	public static void main(String[] args) {
+	System.out.println("Hi^^,! Defne's first coding lesson");
+
+	String ortaMetin ="İlginizi çekebilir";
+	String altMetin ="Vade süresi";
+	//Değişken isimlendirmeleri Java'da camelCase seklinde yazılır.
+	//Java'da ; kullanılır ve devamlı kaydet cmd + s olarak.
+	
+	System.out.println(ortaMetin);
+	
+	int vade = 12;  //integer (int) = tam sayı demek
+	double dolarDun= 18.15; //double tam sayı dışındaki sayılar için
+	double dolarBugun= 18.10;
+//condition --> durum soyle ise boyle gibi...	
+	
+	boolean dolarDustuMu = true;  //doğru/yanlışı belirler
+	
+	String okYonu = "down.jpg";
+	
+	
+	
+	}
+
+}
