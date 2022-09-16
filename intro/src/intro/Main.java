@@ -1,7 +1,25 @@
 package intro;
 
-public class Main {
+class Main {
 	public static void main(String[] args) {
-	System.out.println("Hello world");
+		System.out.println("Hello world!");
+		
+		
+		int not = 55;
+		int kredi = 10000;
+		double notOrtalaması = 50.5;
+		String isim = " Defne ";
+		boolean sistemeGirisYapmisMi = true;
+
+		
+		int ogrenciSayisi = 10;
+		System.out.println("Öğrenci sayım = 10");
+		System.out.println("Öğrenci sayım = 10");
+		System.out.println("Öğrenci sayım = 10");
+		System.out.println("Öğrenci sayım = 10");
+		
+		
 	}
+		
 }
+
