@@ -4,7 +4,6 @@ class Main {
 	public static void main(String[] args) {
 		System.out.println("Hello world!");
 		
-		
 		int sayi = 25;
 		if (sayi>20){
 			System.out.println("Sayı 20'den büyüktür.");
@@ -30,8 +29,6 @@ class Main {
 		}
  
 		System.out.println("En büyük = " + enBuyuk);
-		
-		
 		
 		 
 			

@@ -7,8 +7,10 @@ public class Main {
 		String mesaj = "Vade Oranı";
 		
 		Product product1 =new Product ();
+		
 		product1.setName("Delonghi Kahve Makinesi");
-		product1setDiscount(7)
+		
+		product1.setDiscount(7);
 		
 		
 		Product product2 =new Product ();
@@ -22,7 +24,7 @@ public class Main {
 		
 		System.out.println ("<ul>");
 		for (Product product : products) {
-		System.out.println("<li>" + product.name + "</li>");	
+		System.out.println("<li>" + product.getName() + "</li>");	
 		
 			
 		}
